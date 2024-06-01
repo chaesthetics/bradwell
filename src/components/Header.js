@@ -15,9 +15,9 @@ const Header = () => {
             <div className='p-2 hover:bg-gray-200 hover:cursor-pointer animation-300 duration-300 rounded-full'>
                 <svg aria-hidden="true" className="md:hidden valign-middle absoluteCenter w-[24px] h-[24px] overflow-visible" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path class="sb-hamburgerButton-middleLine-CLOSED sb-hamburgerButton-animation" d="M21,12.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,12.9,21,12.9z"></path><path class="sb-hamburgerButton-topLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines" d="M21,6.9H3C2.5,6.9,2.1,6.5,2.1,6S2.5,5.1,3,5.1h18c0.5,0,0.9,0.4,0.9,0.9S21.5,6.9,21,6.9z"></path><path class="sb-hamburgerButton-bottomLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines" d="M21,18.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,18.9,21,18.9z"></path><circle class="sb-icon-hover" cx="50%" cy="50%" fill="transparent" r="75%"></circle></svg>
             </div>
-            <div className='flex items-center space-x-8 hidden md:flex'>
-                <div className='flex items-center space-x-2'>
-                <svg xmlns="http://www.w3.org/2000/svg" className='w-5' viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+            <div className='flex items-center space-x-14 hidden md:flex'>
+                <div className='flex items-center space-x-2 group hover:cursor-pointer hover:text-yellow-700'>
+                <svg xmlns="http://www.w3.org/2000/svg" className='w-4 group-hover:fill-yellow-700' viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
                     <p className='font-semibold text-sm'>Find a store</p>
                 </div>
                 <div className='space-x-3'> 
