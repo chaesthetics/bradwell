@@ -2,7 +2,7 @@ import Image from 'next/image'
 import logo from '@/img/logo.png'
 const Header = () => {
     return(
-        <nav className="flex w-full items-center py-2 md:py-4 px-10 backdrop-blur-sm border-b-[1px] justify-between shadow-sm"> 
+        <nav className="flex sticky top-0  w-full items-center py-2 md:py-4 px-0 backdrop-blur bg-white bg-opacity-80 border-b-[1px] justify-between shadow-sm overflow-x-hidden"> 
             <div className='flex items-center space-x-8'>
                 <Image 
                     src={logo}

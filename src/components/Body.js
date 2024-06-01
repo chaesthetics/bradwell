@@ -81,7 +81,7 @@ const content = [
 ]
 
 const sideContent = content.map((items)=>{
-    return <div className="hidden md:block flex pl-36 flex-col space-y-6 text-lg">
+    return <div className="hidden md:flex pl-36 flex-col space-y-6 text-lg">
                 <p className="font-semibold text-xl hover:cursor-pointer">{items.category}</p>
                 <ul className="space-y-4 text-[16px] text-gray-700 pb-12">
                     {items.items.map((item1)=>{
@@ -109,11 +109,11 @@ const mainContent = content.map((items)=>{
             </div>
 });
 return(
-    <div className="flex w-screen pt-14">
+    <div className="flex w-full pt-14">
         <aside className="w-0 md:w-1/4">
             {sideContent}
         </aside>
-        <div className="w-full md:w-3/4 px-12">
+        <div className="w-full md:w-3/4 px-0">
             <span className="font-bold text-2xl md:text-3xl">Menu</span>
             {mainContent}
         </div>
