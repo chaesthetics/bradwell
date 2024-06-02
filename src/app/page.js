@@ -6,7 +6,7 @@ import Store from "@/components/Store";
 
 export default function Home() {
   return (
-    <main className="w-full h-auto min-w-screen">
+    <main className="w-full h-full">
       <Header />
       <Body />
       <About />
