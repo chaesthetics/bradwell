@@ -1,7 +1,7 @@
 const About = () => {
     return(
-        <div className="w-full border-t-[1px] border-shadow-1 drop-shadow-sm pb-4 bg-blue-50">
-            <div className="flex flex-col md:flex-row justify-between w-full px-0 md:px-36 py-4">
+        <div className="w-full border-t-[1px] border-shadow-1 drop-shadow-sm pb-4 z-20 bg-white">
+            <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-36 py-4">
                 <div className="space-y-8 flex md:flex-col items-center md:items-start w-full justify-between md:justify-start">
                     <span className="text-md md:text-xl mt-7">About Us</span>
                     <svg aria-hidden="true" class="md:hidden w-8 valign-middle sb-caret-expander__icon ml2" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M11.96 15.5c-.206 0-.402-.084-.546-.232l-5.188-5.33c-.3-.31-.3-.81 0-1.12.3-.31.79-.31 1.093 0l4.64 4.767 4.723-4.853c.3-.31.79-.31 1.09 0 .303.31.303.812.002 1.122l-5.27 5.414c-.145.148-.34.232-.546.232"></path></svg>

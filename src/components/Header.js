@@ -2,7 +2,7 @@ import Image from 'next/image'
 import logo from '@/img/logo.png'
 const Header = () => {
     return(
-        <nav className="flex sticky top-0  w-full items-center py-2 md:py-4 px-0 backdrop-blur bg-white bg-opacity-80 border-b-[1px] justify-between shadow-sm overflow-x-hidden"> 
+        <nav className="flex sticky top-0 w-full items-center py-2 md:py-4 px-4 md:px-8 backdrop-blur bg-white bg-opacity-80 border-b-[1px] justify-between shadow-sm overflow-x-hidden"> 
             <div className='flex items-center space-x-8'>
                 <Image 
                     src={logo}
@@ -10,7 +10,7 @@ const Header = () => {
                     height={66}
                     className='mt-1 md:mt-2'
                 />
-                <p className='font-bold italic text-2xl md:text-3xl text-indigo-950 font-sans hidden md:block'>Bradwell</p>
+                <p className='font-bold italic text-2xl md:text-3xl text-blue-950 font-sans hidden md:block'>Bradwell</p>
             </div>
             <div className='p-2 hover:bg-gray-200 hover:cursor-pointer animation-300 duration-300 rounded-full'>
                 <svg aria-hidden="true" className="md:hidden valign-middle absoluteCenter w-[24px] h-[24px] overflow-visible" focusable="false" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path class="sb-hamburgerButton-middleLine-CLOSED sb-hamburgerButton-animation" d="M21,12.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,12.9,21,12.9z"></path><path class="sb-hamburgerButton-topLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines" d="M21,6.9H3C2.5,6.9,2.1,6.5,2.1,6S2.5,5.1,3,5.1h18c0.5,0,0.9,0.4,0.9,0.9S21.5,6.9,21,6.9z"></path><path class="sb-hamburgerButton-bottomLine-CLOSED sb-hamburgerButton-animation sb-hamburgerButton-animation-outer-lines" d="M21,18.9H3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9h18c0.5,0,0.9,0.4,0.9,0.9S21.5,18.9,21,18.9z"></path><circle class="sb-icon-hover" cx="50%" cy="50%" fill="transparent" r="75%"></circle></svg>
@@ -22,7 +22,7 @@ const Header = () => {
                 </div>
                 <div className='space-x-3'> 
                     <button className='px-5 py-[6px] rounded-full text-sm font-bold text-yellow-700 border-[1px] border-yellow-600 hover:bg-gray-50 animation-100 duration-100'>Sign in</button>
-                    <button className='px-5 py-[6px] rounded-full text-sm font-bold text-white border-[1px] bg-black hover:bg-gray-600 animation-100 duration-100'>Explore</button>
+                    <button className='px-5 py-[6px] rounded-full text-sm font-bold text-white border-[1px] bg-blue-950 hover:bg-gray-600 animation-100 duration-100'>Explore</button>
                 </div>
             </div>
 

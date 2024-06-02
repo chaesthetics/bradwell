@@ -113,7 +113,7 @@ return(
         <aside className="w-0 md:w-1/4">
             {sideContent}
         </aside>
-        <div className="w-full md:w-3/4 px-0">
+        <div className="w-full md:w-3/4 px-4 md:px-10">
             <span className="font-bold text-2xl md:text-3xl">Menu</span>
             {mainContent}
         </div>
